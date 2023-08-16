@@ -319,7 +319,7 @@
         <!--AddEditAPICRUDViewController-->
         <scene sceneID="7yn-3J-ri6">
             <objects>
-                <viewController storyboardIdentifier="AddEditAPICRUDViewController" title="AddEditAPICRUDViewController" id="fPb-KB-cW7" customClass="AddEditAPICRUDViewController" customModule="MDEV1004_Final_Test_View" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddEditAPICRUDViewController" title="AddEditAPICRUDViewController" id="fPb-KB-cW7" customClass="AddAndEditViewController" customModule="MDEV1004_Final_Test_View" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PPu-uS-3xz">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -431,7 +431,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="CancelButton_Pressed:" destination="fPb-KB-cW7" eventType="touchUpInside" id="rKq-NR-srm"/>
+                                    <action selector="CancelButton_Pressed:" destination="fPb-KB-cW7" eventType="touchUpInside" id="UBV-sJ-9MO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWO-HY-BQs" userLabel="UpdateButton">
@@ -443,7 +443,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="UpdateButton_Pressed:" destination="fPb-KB-cW7" eventType="touchUpInside" id="YRh-8v-4QJ"/>
+                                    <action selector="UpdateButton_Pressed:" destination="fPb-KB-cW7" eventType="touchUpInside" id="ugM-uv-0sU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notable Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qE4-SX-Apc" userLabel="ActorsLabel">
@@ -491,10 +491,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="LHg-fL-6tK"/>
                     <connections>
-                        <outlet property="AddEditTitleLabel" destination="0Ts-K7-xH1" id="hnC-fS-ODJ"/>
-                        <outlet property="UpdateButton" destination="OWO-HY-BQs" id="99b-I3-jY9"/>
-                        <outlet property="genresTextField" destination="bKa-Lw-U7B" id="WZY-Oi-8o4"/>
-                        <outlet property="yearTextField" destination="Eg9-K8-YmO" id="ehM-58-fpn"/>
+                        <outlet property="AddEditTitleLabel" destination="0Ts-K7-xH1" id="BUy-Wa-CVF"/>
+                        <outlet property="UpdateButton" destination="OWO-HY-BQs" id="apj-zC-MC4"/>
+                        <outlet property="childrensTextField" destination="7e2-Bt-DGv" id="NIU-Qg-2cm"/>
+                        <outlet property="dobTextField" destination="mRF-wW-FuE" id="Vsg-aZ-bI5"/>
+                        <outlet property="fullNameTextField" destination="H4X-ix-SZ8" id="7dl-3T-Qq8"/>
+                        <outlet property="instrumentsTextField" destination="P0J-AI-5ZA" id="m4e-wn-82T"/>
+                        <outlet property="labelsTextField" destination="dU5-mq-t7W" id="094-3z-MNS"/>
+                        <outlet property="musicianIDTextField" destination="Flx-9Q-P4O" id="7Z4-Bs-7IN"/>
+                        <outlet property="spousesTextField" destination="Od2-7k-qVG" id="yvX-hn-1Qn"/>
+                        <outlet property="yearTextField" destination="Eg9-K8-YmO" id="cf5-Ui-I3L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9dU-V3-JRC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

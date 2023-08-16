@@ -1,6 +1,6 @@
 import UIKit
 
-class AddEditAPICRUDViewController: UIViewController
+class AddAndEditViewController: UIViewController
 {
     // UI References
     @IBOutlet weak var AddEditTitleLabel: UILabel!
@@ -16,6 +16,7 @@ class AddEditAPICRUDViewController: UIViewController
     @IBOutlet weak var childrensTextField: UITextField!
     @IBOutlet weak var dobTextField: UITextField!
     @IBOutlet weak var yearTextField: UITextField!
+
     
     var musician: Musician?
     var crudViewController: APICRUDViewController? // Updated from musicianViewController
@@ -24,18 +25,17 @@ class AddEditAPICRUDViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
         if let musician = musician
         {
-            print(musician.music_id)
+            print(musician.genres)
             // Editing existing musician
             musicianIDTextField.text = String(musician.music_id)
             fullNameTextField.text = musician.fullName
-            genresTextField.text = musician.genres.joined(separator: ", ")
-            instrumentsTextField.text = musician.instruments.joined(separator: ", ")
-            labelsTextField.text = musician.labels.joined(separator: ", ")
-            spousesTextField.text = musician.spouses?.joined(separator: ", ")
-            childrensTextField.text = musician.children?.joined(separator: ", ")
+//            genresTextField.text = musician.genres.joined(separator: ", ")
+//            instrumentsTextField.text = musician.instruments.joined(separator: ", ")
+//            labelsTextField.text = musician.labels.joined(separator: ", ")
+//            spousesTextField.text = musician.spouses?.joined(separator: ", ")
+//            childrensTextField.text = musician.children?.joined(separator: ", ")
             dobTextField.text = musician.born
             yearTextField.text = musician.yearsActive
             
@@ -140,3 +140,4 @@ class AddEditAPICRUDViewController: UIViewController
         task.resume()
     }
 }
+

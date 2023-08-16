@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281B94112A8D63FF0050C5AA /* AddAndEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B94102A8D63FF0050C5AA /* AddAndEditViewController.swift */; };
 		2894BD992A8BE535005A2A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2894BD982A8BE535005A2A1C /* AppDelegate.swift */; };
 		2894BD9B2A8BE535005A2A1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2894BD9A2A8BE535005A2A1C /* SceneDelegate.swift */; };
 		2894BD9D2A8BE535005A2A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2894BD9C2A8BE535005A2A1C /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		281B94102A8D63FF0050C5AA /* AddAndEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndEditViewController.swift; sourceTree = "<group>"; };
 		2894BD952A8BE535005A2A1C /* MDEV1004_Final Test_View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDEV1004_Final Test_View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2894BD982A8BE535005A2A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2894BD9A2A8BE535005A2A1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				2894BDA12A8BE536005A2A1C /* Assets.xcassets */,
 				2894BDA32A8BE536005A2A1C /* LaunchScreen.storyboard */,
 				2894BDA62A8BE536005A2A1C /* Info.plist */,
+				281B94102A8D63FF0050C5AA /* AddAndEditViewController.swift */,
 			);
 			path = "MDEV1004_Final Test_View";
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				2894BD992A8BE535005A2A1C /* AppDelegate.swift in Sources */,
 				2894BDB92A8BE706005A2A1C /* APILoginViewController.swift in Sources */,
 				2894BDB82A8BE706005A2A1C /* MusicianTableViewCell.swift in Sources */,
+				281B94112A8D63FF0050C5AA /* AddAndEditViewController.swift in Sources */,
 				2894BD9B2A8BE535005A2A1C /* SceneDelegate.swift in Sources */,
 				2894BDBA2A8BE706005A2A1C /* APICRUDViewController.swift in Sources */,
 				2894BDBC2A8BE706005A2A1C /* AddEditAPICRUDViewController.swift in Sources */,

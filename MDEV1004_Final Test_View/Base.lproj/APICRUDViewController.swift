@@ -92,7 +92,6 @@ class APICRUDViewController: UIViewController, UITableViewDelegate, UITableViewD
                 print("Decoding JSON Data...")
                 print(data)
                 let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
-                print(json)
                 if let success = json?["success"] as? Bool, success == true
                 {
                     if let musiciansData = json?["data"] as? [[String: Any]] {
@@ -149,7 +148,7 @@ class APICRUDViewController: UIViewController, UITableViewDelegate, UITableViewD
     {
         if segue.identifier == "AddEditSegue"
         {
-            if let addEditVC = segue.destination as? AddEditAPICRUDViewController
+            if let addEditVC = segue.destination as? AddAndEditViewController
             {
                 addEditVC.crudViewController = self
                 if let indexPath = sender as? IndexPath {

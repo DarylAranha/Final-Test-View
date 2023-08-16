@@ -1,6 +1,6 @@
 struct Musician: Codable {
     let _id: String
-    let music_id: String?
+    let music_id: String
     let fullName: String
     let genres: [String]
     let instruments: [String]
