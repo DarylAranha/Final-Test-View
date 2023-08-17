@@ -496,7 +496,8 @@
                         <outlet property="childrensTextField" destination="7e2-Bt-DGv" id="NIU-Qg-2cm"/>
                         <outlet property="dobTextField" destination="mRF-wW-FuE" id="Vsg-aZ-bI5"/>
                         <outlet property="fullNameTextField" destination="H4X-ix-SZ8" id="7dl-3T-Qq8"/>
-                        <outlet property="instrumentsTextField" destination="P0J-AI-5ZA" id="m4e-wn-82T"/>
+                        <outlet property="genresTextField" destination="P0J-AI-5ZA" id="Jan-0i-Ap7"/>
+                        <outlet property="instrumentsTextField" destination="bKa-Lw-U7B" id="efN-3o-4pD"/>
                         <outlet property="labelsTextField" destination="dU5-mq-t7W" id="094-3z-MNS"/>
                         <outlet property="musicianIDTextField" destination="Flx-9Q-P4O" id="7Z4-Bs-7IN"/>
                         <outlet property="spousesTextField" destination="Od2-7k-qVG" id="yvX-hn-1Qn"/>

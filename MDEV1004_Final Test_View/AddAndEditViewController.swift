@@ -27,15 +27,15 @@ class AddAndEditViewController: UIViewController
         super.viewDidLoad()
         if let musician = musician
         {
-            print(musician.genres)
+            print(musician.genres.joined(separator: ", "))
             // Editing existing musician
             musicianIDTextField.text = String(musician.music_id)
             fullNameTextField.text = musician.fullName
-//            genresTextField.text = musician.genres.joined(separator: ", ")
-//            instrumentsTextField.text = musician.instruments.joined(separator: ", ")
-//            labelsTextField.text = musician.labels.joined(separator: ", ")
-//            spousesTextField.text = musician.spouses?.joined(separator: ", ")
-//            childrensTextField.text = musician.children?.joined(separator: ", ")
+            genresTextField.text = musician.genres.joined(separator: ", ")
+            instrumentsTextField.text = musician.instruments.joined(separator: ", ")
+            labelsTextField.text = musician.labels.joined(separator: ", ")
+            spousesTextField.text = musician.spouses?.joined(separator: ", ")
+            childrensTextField.text = musician.children?.joined(separator: ", ")
             dobTextField.text = musician.born
             yearTextField.text = musician.yearsActive
             
